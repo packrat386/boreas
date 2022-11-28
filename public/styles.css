@@ -1,0 +1,8 @@
+body {
+    color: #585454;
+    padding: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #f3f3f3;
+}
