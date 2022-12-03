@@ -2,36 +2,45 @@
   <head>
     <title>Boreas Forecast</title>
     <link rel="stylesheet" type="text/css" href="/styles.css"/>
+    <style>
+      input[type=checkbox]{
+          display: none
+      }
+
+      .forecast_details {
+          display: none
+      }
+
+      input[type=checkbox]:checked ~ .forecast_details {
+          display: block
+      }
+    </style>
   </head>
   <body>
     <h1>Forecast</h1>
     <% if @error %>
-      <p>ruh roh: <%= @error %></p>
+    <p>ruh roh: <%= @error %></p>
     <% end %>
     <form method="get">
       <label for="address">Address:</label></br>
       <input type="text" id="address" name="address" size="50" value="<%= @address %>"></input>
     </form>
     <% if @forecast_data %>
-    <table>
-      <thead>
-        <tr>
-          <th>time</th>
-          <th>temperature</th>
-          <th>wind</th>
-          <th>forecast</th>
-        </tr>
-      </thead>
-      <tbody>
-        <% format_forecast(@forecast_data.fetch('periods', [])).each do |hour| %>
-          <tr>
-            <td><%= hour[:time] %>
-            <td><%= hour[:temperature] %>
-            <td><%= hour[:wind] %>
-            <td><%= hour[:forecast] %>
-          </tr>
+      <div id='forecast'>
+        <% @forecast_data.each_with_index do |dd, i| %>
+        <div>
+          <input type="checkbox" id="toggle_forecast_<%= i%>">
+          <label for="toggle_forecast_<%= i%>">
+            <img src="<%= dd['icon'] %>"></img>
+            <%= daily_forecast_title(dd) %>
+          </label>
+          <div class='forecast_details'>
+            <p><%= dd['detailedForecast'] %></p>
+            <%= hourly_forecast_table(dd['hourlyData']) %>
+          </div>
+        </div>
         <% end %>
-      </tbody>
+      </div>
     <% end %>
   </body>
 </html>

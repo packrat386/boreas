@@ -7,13 +7,13 @@ module Boreas
 
     config.autoload_paths = ["#{Rails.root}/lib"]
     config.eager_load = true
+
+    routes.append do
+      scope module: 'boreas' do
+        get 'forecast', action: :index, controller: 'forecast'
+      end
+    end
   end
 end
 
 Rails.application.initialize!
-
-Boreas::Application.routes.draw do
-  scope module: 'boreas' do
-    get 'forecast', action: :index, controller: 'forecast'
-  end
-end
