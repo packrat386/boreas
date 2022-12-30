@@ -2,43 +2,31 @@
   <head>
     <title>Boreas Forecast</title>
     <link rel="stylesheet" type="text/css" href="/styles.css"/>
-    <style>
-      input[type=checkbox]{
-          display: none
-      }
-
-      .forecast_details {
-          display: none
-      }
-
-      input[type=checkbox]:checked ~ .forecast_details {
-          display: block
-      }
-    </style>
   </head>
   <body>
-    <h1>Forecast</h1>
+    <h2>Forecast</h2>
     <% if @error %>
     <p>ruh roh: <%= @error %></p>
     <% end %>
     <form method="get">
       <label for="address">Address:</label></br>
-      <input type="text" id="address" name="address" size="50" value="<%= @address %>"></input>
+      <input type="text" id="address" name="address" DISABLED_size="50" style="width:70%" value="<%= @address %>"></input>
+      <input type="submit" id="submit" value="Submit">
     </form>
     <% if @forecast_data %>
       <div id='forecast'>
         <% @forecast_data.each_with_index do |dd, i| %>
         <div>
-          <input type="checkbox" id="toggle_forecast_<%= i%>">
-          <label for="toggle_forecast_<%= i%>">
-            <img src="<%= dd['icon'] %>"></img>
-            <%= daily_forecast_title(dd) %>
+          <label for="toggle_forecast_<%= i%>" class='forecast_day'>
+            <span style='vertical-align:middle'><%= daily_forecast_title(dd) %></span>
           </label>
+          <input type="checkbox" id="toggle_forecast_<%= i%>">
           <div class='forecast_details'>
             <p><%= dd['detailedForecast'] %></p>
             <%= hourly_forecast_table(dd['hourlyData']) %>
           </div>
         </div>
+        </br>
         <% end %>
       </div>
     <% end %>

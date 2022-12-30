@@ -9,7 +9,7 @@ module Boreas
     end
 
     def forecast_data
-      daily_data = get_json(daily_forecast_url).dig('properties', 'periods').map { _1.slice('name', 'startTime', 'endTime', 'icon', 'shortForecast', 'detailedForecast').merge('hourlyData' => []) }
+      daily_data = get_json(daily_forecast_url).dig('properties', 'periods').map { _1.slice('name', 'startTime', 'endTime', 'temperature', 'shortForecast', 'detailedForecast').merge('hourlyData' => []) }
 
       get_json(hourly_forecast_url).dig('properties', 'periods').each do |hd|
         daily_data.each do |dd|
