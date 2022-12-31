@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
 APP_PATH = File.expand_path('../lib/boreas/application', __dir__)
+require "bundler/setup"
 require "rails/commands"
