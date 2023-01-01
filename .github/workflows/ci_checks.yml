@@ -1,0 +1,23 @@
+name: CI Checks
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  unit_tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+      - run: bundle install
+      - run: bundle exec rspec
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+      - run: bundle install
+      - run: bundle exec standardrb
