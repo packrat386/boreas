@@ -10,6 +10,8 @@ module Boreas
     config.autoload_paths = ["#{Rails.root}/lib"]
     config.eager_load = true
 
+    config.cache_store = :memory_store
+
     routes.append do
       scope module: "boreas" do
         get "forecast", action: :index, controller: "forecast"

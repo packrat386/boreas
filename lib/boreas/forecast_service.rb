@@ -11,9 +11,11 @@ module Boreas
     end
 
     def forecast_data
-      daily_data = get_json(daily_forecast_url).dig("properties", "periods").map { _1.slice("name", "startTime", "endTime", "temperature", "shortForecast", "detailedForecast").merge("hourlyData" => []) }
+      daily_data = get_json_cached(daily_forecast_url, 5.minutes)
+        .dig("properties", "periods")
+        .map { _1.slice("name", "startTime", "endTime", "temperature", "shortForecast", "detailedForecast").merge("hourlyData" => []) }
 
-      get_json(hourly_forecast_url).dig("properties", "periods").each do |hd|
+      get_json_cached(hourly_forecast_url, 5.minutes).dig("properties", "periods").each do |hd|
         daily_data.each do |dd|
           if (Time.zone.parse(dd["startTime"]) <= Time.zone.parse(hd["startTime"])) && (Time.zone.parse(dd["endTime"]) >= Time.zone.parse(hd["endTime"]))
             dd["hourlyData"] << hd.slice("startTime", "temperature", "windSpeed", "windDirection", "shortForecast")
@@ -33,7 +35,7 @@ module Boreas
     end
 
     def nws_gridpoint
-      @nws_gridpoint ||= get_json("https://api.weather.gov/points/#{latitude},#{longitude}")
+      @nws_gridpoint ||= get_json_cached("https://api.weather.gov/points/#{latitude},#{longitude}", 1.day)
     end
 
     def latitude
@@ -47,7 +49,7 @@ module Boreas
     def matched_address
       return @matched_address if defined?(@matched_address)
 
-      addresses = get_json(geocoding_url).dig("result", "addressMatches")
+      addresses = get_json_cached(geocoding_url, 1.day).dig("result", "addressMatches")
 
       raise NoMatchingAddressError.new("no coordinates found matching address: #{@search_address}") if addresses.blank?
       @matched_address = addresses.first
@@ -65,8 +67,21 @@ module Boreas
       ).to_s
     end
 
-    def get_json(url)
+    def get_json_cached(url, exp)
+      data = Rails.cache.read(url.to_s)
+      if data.present?
+        Rails.logger.debug("using cached data for: #{url}")
+        return data
+      end
+
       Rails.logger.debug("fetching: #{url}")
+      data = get_json(url)
+      Rails.cache.write(url.to_s, data, expires_in: exp)
+
+      data
+    end
+
+    def get_json(url)
       uri = URI(url)
 
       req = Net::HTTP::Get.new(uri)
