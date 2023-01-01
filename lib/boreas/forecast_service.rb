@@ -3,6 +3,7 @@ require 'net/http'
 module Boreas
   class ForecastService
     class NoMatchingAddressError < StandardError; end
+    class APIError < StandardError; end
 
     def initialize(address)
       @search_address = address
@@ -47,8 +48,8 @@ module Boreas
 
       addresses = get_json(geocoding_url).dig('result', 'addressMatches')
 
-      raise NoMatchingAddressError.new("No coordinates found matching address: #{@search_address}") if addresses.blank?
-      @matched_addess = addresses.first
+      raise NoMatchingAddressError.new("no coordinates found matching address: #{@search_address}") if addresses.blank?
+      @matched_address = addresses.first
     end
 
     def geocoding_url
@@ -72,6 +73,11 @@ module Boreas
       
       res = Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
         http.request(req)
+      end
+
+      if res.code != '200'
+        Rails.logger.debug("call to #{url.to_s} errored: #{res.code} -> #{res.body}")
+        raise APIError.new("call to API: #{url.to_s} got error code: #{res.code}")
       end
 
       JSON.parse(res.body)

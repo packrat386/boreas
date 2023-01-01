@@ -2,7 +2,7 @@ require 'action_controller/railtie'
 
 module Boreas
   class Application < Rails::Application
-    config.logger = Logger.new($stdout)
+    config.logger = Logger.new(Rails.env.test? ? nil : $stdout)
     Rails.logger  = config.logger
 
     config.autoload_paths = ["#{Rails.root}/lib"]

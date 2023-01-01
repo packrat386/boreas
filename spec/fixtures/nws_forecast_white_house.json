@@ -1,0 +1,264 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "geo": "http://www.opengis.net/ont/geosparql#",
+      "unit": "http://codes.wmo.int/common/unit/",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "Feature",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -77.005026,
+          38.9198063
+        ],
+        [
+          -77.0087913,
+          38.8978596
+        ],
+        [
+          -76.9805911,
+          38.894927499999994
+        ],
+        [
+          -76.97682,
+          38.91687389999999
+        ],
+        [
+          -77.005026,
+          38.9198063
+        ]
+      ]
+    ]
+  },
+  "properties": {
+    "updated": "2023-01-01T16:46:57+00:00",
+    "units": "us",
+    "forecastGenerator": "BaselineForecastGenerator",
+    "generatedAt": "2023-01-01T17:13:08+00:00",
+    "updateTime": "2023-01-01T16:46:57+00:00",
+    "validTimes": "2023-01-01T10:00:00+00:00/P7DT15H",
+    "elevation": {
+      "unitCode": "wmoUnit:m",
+      "value": 17.9832
+    },
+    "periods": [
+      {
+        "number": 1,
+        "name": "New Year's Day",
+        "startTime": "2023-01-01T12:00:00-05:00",
+        "endTime": "2023-01-01T18:00:00-05:00",
+        "isDaytime": true,
+        "temperature": 65,
+        "temperatureUnit": "F",
+        "temperatureTrend": "falling",
+        "windSpeed": "2 to 6 mph",
+        "windDirection": "W",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+        "shortForecast": "Mostly Sunny",
+        "detailedForecast": "Mostly sunny. High near 65, with temperatures falling to around 57 in the afternoon. West wind 2 to 6 mph."
+      },
+      {
+        "number": 2,
+        "name": "Tonight",
+        "startTime": "2023-01-01T18:00:00-05:00",
+        "endTime": "2023-01-02T06:00:00-05:00",
+        "isDaytime": false,
+        "temperature": 41,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "2 mph",
+        "windDirection": "SW",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+        "shortForecast": "Mostly Cloudy",
+        "detailedForecast": "Mostly cloudy, with a low around 41. Southwest wind around 2 mph."
+      },
+      {
+        "number": 3,
+        "name": "Monday",
+        "startTime": "2023-01-02T06:00:00-05:00",
+        "endTime": "2023-01-02T18:00:00-05:00",
+        "isDaytime": true,
+        "temperature": 59,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "3 mph",
+        "windDirection": "SW",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "shortForecast": "Partly Sunny",
+        "detailedForecast": "Partly sunny, with a high near 59. Southwest wind around 3 mph."
+      },
+      {
+        "number": 4,
+        "name": "Monday Night",
+        "startTime": "2023-01-02T18:00:00-05:00",
+        "endTime": "2023-01-03T06:00:00-05:00",
+        "isDaytime": false,
+        "temperature": 45,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+        "shortForecast": "Mostly Cloudy",
+        "detailedForecast": "Mostly cloudy, with a low around 45. South wind around 2 mph."
+      },
+      {
+        "number": 5,
+        "name": "Tuesday",
+        "startTime": "2023-01-03T06:00:00-05:00",
+        "endTime": "2023-01-03T18:00:00-05:00",
+        "isDaytime": true,
+        "temperature": 63,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "3 to 12 mph",
+        "windDirection": "S",
+        "icon": "https://api.weather.gov/icons/land/day/rain,20/rain,30?size=medium",
+        "shortForecast": "Chance Light Rain",
+        "detailedForecast": "A chance of rain after 7am. Mostly cloudy, with a high near 63. South wind 3 to 12 mph, with gusts as high as 23 mph. Chance of precipitation is 30%."
+      },
+      {
+        "number": 6,
+        "name": "Tuesday Night",
+        "startTime": "2023-01-03T18:00:00-05:00",
+        "endTime": "2023-01-04T06:00:00-05:00",
+        "isDaytime": false,
+        "temperature": 55,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "10 mph",
+        "windDirection": "SW",
+        "icon": "https://api.weather.gov/icons/land/night/rain,60?size=medium",
+        "shortForecast": "Light Rain Likely",
+        "detailedForecast": "Rain likely. Cloudy, with a low around 55. Chance of precipitation is 60%."
+      },
+      {
+        "number": 7,
+        "name": "Wednesday",
+        "startTime": "2023-01-04T06:00:00-05:00",
+        "endTime": "2023-01-04T18:00:00-05:00",
+        "isDaytime": true,
+        "temperature": 67,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "8 to 12 mph",
+        "windDirection": "SW",
+        "icon": "https://api.weather.gov/icons/land/day/rain,80/tsra,80?size=medium",
+        "shortForecast": "Light Rain Likely then Showers And Thunderstorms",
+        "detailedForecast": "Rain likely before 7am, then rain showers between 7am and 1pm, then showers and thunderstorms. Mostly cloudy, with a high near 67. Chance of precipitation is 80%."
+      },
+      {
+        "number": 8,
+        "name": "Wednesday Night",
+        "startTime": "2023-01-04T18:00:00-05:00",
+        "endTime": "2023-01-05T06:00:00-05:00",
+        "isDaytime": false,
+        "temperature": 45,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "7 mph",
+        "windDirection": "W",
+        "icon": "https://api.weather.gov/icons/land/night/tsra_hi,80/tsra_hi?size=medium",
+        "shortForecast": "Showers And Thunderstorms",
+        "detailedForecast": "Showers and thunderstorms before 1am. Mostly cloudy, with a low around 45. Chance of precipitation is 80%."
+      },
+      {
+        "number": 9,
+        "name": "Thursday",
+        "startTime": "2023-01-05T06:00:00-05:00",
+        "endTime": "2023-01-05T18:00:00-05:00",
+        "isDaytime": true,
+        "temperature": 52,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "6 to 9 mph",
+        "windDirection": "NW",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+        "shortForecast": "Mostly Sunny",
+        "detailedForecast": "Mostly sunny, with a high near 52."
+      },
+      {
+        "number": 10,
+        "name": "Thursday Night",
+        "startTime": "2023-01-05T18:00:00-05:00",
+        "endTime": "2023-01-06T06:00:00-05:00",
+        "isDaytime": false,
+        "temperature": 34,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "6 mph",
+        "windDirection": "N",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+        "shortForecast": "Mostly Cloudy",
+        "detailedForecast": "Mostly cloudy, with a low around 34."
+      },
+      {
+        "number": 11,
+        "name": "Friday",
+        "startTime": "2023-01-06T06:00:00-05:00",
+        "endTime": "2023-01-06T18:00:00-05:00",
+        "isDaytime": true,
+        "temperature": 44,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "7 mph",
+        "windDirection": "N",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "shortForecast": "Partly Sunny",
+        "detailedForecast": "Partly sunny, with a high near 44."
+      },
+      {
+        "number": 12,
+        "name": "Friday Night",
+        "startTime": "2023-01-06T18:00:00-05:00",
+        "endTime": "2023-01-07T06:00:00-05:00",
+        "isDaytime": false,
+        "temperature": 29,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+        "shortForecast": "Partly Cloudy",
+        "detailedForecast": "Partly cloudy, with a low around 29."
+      },
+      {
+        "number": 13,
+        "name": "Saturday",
+        "startTime": "2023-01-07T06:00:00-05:00",
+        "endTime": "2023-01-07T18:00:00-05:00",
+        "isDaytime": true,
+        "temperature": 46,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+        "shortForecast": "Mostly Sunny",
+        "detailedForecast": "Mostly sunny, with a high near 46."
+      },
+      {
+        "number": 14,
+        "name": "Saturday Night",
+        "startTime": "2023-01-07T18:00:00-05:00",
+        "endTime": "2023-01-08T06:00:00-05:00",
+        "isDaytime": false,
+        "temperature": 31,
+        "temperatureUnit": "F",
+        "temperatureTrend": null,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+        "shortForecast": "Mostly Cloudy",
+        "detailedForecast": "Mostly cloudy, with a low around 31."
+      }
+    ]
+  }
+}

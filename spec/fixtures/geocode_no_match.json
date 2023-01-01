@@ -1,0 +1,16 @@
+{
+  "result": {
+    "input": {
+      "address": {
+        "address": "notanaddress"
+      },
+      "benchmark": {
+        "isDefault": false,
+        "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+        "id": "2020",
+        "benchmarkName": "Public_AR_Census2020"
+      }
+    },
+    "addressMatches": []
+  }
+}

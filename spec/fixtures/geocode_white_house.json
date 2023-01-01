@@ -1,0 +1,67 @@
+{
+  "result": {
+    "input": {
+      "address": {
+        "address": "1600 Pennsylvania Avenue, Washington DC"
+      },
+      "benchmark": {
+        "isDefault": false,
+        "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+        "id": "2020",
+        "benchmarkName": "Public_AR_Census2020"
+      }
+    },
+    "addressMatches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "76225813"
+        },
+        "coordinates": {
+          "x": -77.03534431753657,
+          "y": 38.898752686023606
+        },
+        "addressComponents": {
+          "zip": "20500",
+          "streetName": "PENNSYLVANIA",
+          "preType": "",
+          "city": "WASHINGTON",
+          "preDirection": "",
+          "suffixDirection": "NW",
+          "fromAddress": "1600",
+          "state": "DC",
+          "suffixType": "AVE",
+          "toAddress": "1698",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1600 PENNSYLVANIA AVE NW, WASHINGTON, DC, 20500"
+      },
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "76240366"
+        },
+        "coordinates": {
+          "x": -76.98351772345468,
+          "y": 38.87963150652234
+        },
+        "addressComponents": {
+          "zip": "20003",
+          "streetName": "PENNSYLVANIA",
+          "preType": "",
+          "city": "WASHINGTON",
+          "preDirection": "",
+          "suffixDirection": "SE",
+          "fromAddress": "1600",
+          "state": "DC",
+          "suffixType": "AVE",
+          "toAddress": "1550",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1600 PENNSYLVANIA AVE SE, WASHINGTON, DC, 20003"
+      }
+    ]
+  }
+}

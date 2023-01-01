@@ -1,0 +1,1227 @@
+[
+  {
+    "name": "New Year's Day",
+    "startTime": "2023-01-01T12:00:00-05:00",
+    "endTime": "2023-01-01T18:00:00-05:00",
+    "temperature": 65,
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny. High near 65, with temperatures falling to around 57 in the afternoon. West wind 2 to 6 mph.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-01T12:00:00-05:00",
+        "temperature": 60,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny"
+      },
+      {
+        "startTime": "2023-01-01T13:00:00-05:00",
+        "temperature": 63,
+        "windSpeed": "5 mph",
+        "windDirection": "W",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-01T14:00:00-05:00",
+        "temperature": 65,
+        "windSpeed": "3 mph",
+        "windDirection": "W",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-01T15:00:00-05:00",
+        "temperature": 63,
+        "windSpeed": "3 mph",
+        "windDirection": "W",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-01T16:00:00-05:00",
+        "temperature": 61,
+        "windSpeed": "2 mph",
+        "windDirection": "SW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-01T17:00:00-05:00",
+        "temperature": 57,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Sunny"
+      }
+    ]
+  },
+  {
+    "name": "Tonight",
+    "startTime": "2023-01-01T18:00:00-05:00",
+    "endTime": "2023-01-02T06:00:00-05:00",
+    "temperature": 41,
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 41. Southwest wind around 2 mph.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-01T18:00:00-05:00",
+        "temperature": 54,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-01T19:00:00-05:00",
+        "temperature": 48,
+        "windSpeed": "2 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-01T20:00:00-05:00",
+        "temperature": 47,
+        "windSpeed": "2 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-01T21:00:00-05:00",
+        "temperature": 46,
+        "windSpeed": "2 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-01T22:00:00-05:00",
+        "temperature": 46,
+        "windSpeed": "2 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-01T23:00:00-05:00",
+        "temperature": 45,
+        "windSpeed": "1 mph",
+        "windDirection": "SW",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T00:00:00-05:00",
+        "temperature": 45,
+        "windSpeed": "1 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T01:00:00-05:00",
+        "temperature": 44,
+        "windSpeed": "1 mph",
+        "windDirection": "W",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T02:00:00-05:00",
+        "temperature": 44,
+        "windSpeed": "0 mph",
+        "windDirection": "W",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T03:00:00-05:00",
+        "temperature": 43,
+        "windSpeed": "1 mph",
+        "windDirection": "SW",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T04:00:00-05:00",
+        "temperature": 43,
+        "windSpeed": "0 mph",
+        "windDirection": "W",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T05:00:00-05:00",
+        "temperature": 43,
+        "windSpeed": "0 mph",
+        "windDirection": "W",
+        "shortForecast": "Mostly Cloudy"
+      }
+    ]
+  },
+  {
+    "name": "Monday",
+    "startTime": "2023-01-02T06:00:00-05:00",
+    "endTime": "2023-01-02T18:00:00-05:00",
+    "temperature": 59,
+    "shortForecast": "Partly Sunny",
+    "detailedForecast": "Partly sunny, with a high near 59. Southwest wind around 3 mph.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-02T06:00:00-05:00",
+        "temperature": 42,
+        "windSpeed": "1 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T07:00:00-05:00",
+        "temperature": 41,
+        "windSpeed": "1 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T08:00:00-05:00",
+        "temperature": 43,
+        "windSpeed": "1 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T09:00:00-05:00",
+        "temperature": 46,
+        "windSpeed": "1 mph",
+        "windDirection": "SW",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T10:00:00-05:00",
+        "temperature": 49,
+        "windSpeed": "2 mph",
+        "windDirection": "SW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T11:00:00-05:00",
+        "temperature": 51,
+        "windSpeed": "2 mph",
+        "windDirection": "SW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T12:00:00-05:00",
+        "temperature": 55,
+        "windSpeed": "3 mph",
+        "windDirection": "SW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T13:00:00-05:00",
+        "temperature": 58,
+        "windSpeed": "3 mph",
+        "windDirection": "SW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T14:00:00-05:00",
+        "temperature": 59,
+        "windSpeed": "3 mph",
+        "windDirection": "SW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T15:00:00-05:00",
+        "temperature": 59,
+        "windSpeed": "3 mph",
+        "windDirection": "S",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T16:00:00-05:00",
+        "temperature": 59,
+        "windSpeed": "3 mph",
+        "windDirection": "S",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-02T17:00:00-05:00",
+        "temperature": 57,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Partly Sunny"
+      }
+    ]
+  },
+  {
+    "name": "Monday Night",
+    "startTime": "2023-01-02T18:00:00-05:00",
+    "endTime": "2023-01-03T06:00:00-05:00",
+    "temperature": 45,
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 45. South wind around 2 mph.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-02T18:00:00-05:00",
+        "temperature": 55,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T19:00:00-05:00",
+        "temperature": 53,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T20:00:00-05:00",
+        "temperature": 51,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T21:00:00-05:00",
+        "temperature": 50,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T22:00:00-05:00",
+        "temperature": 49,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-02T23:00:00-05:00",
+        "temperature": 48,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-03T00:00:00-05:00",
+        "temperature": 48,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-03T01:00:00-05:00",
+        "temperature": 47,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-03T02:00:00-05:00",
+        "temperature": 47,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-03T03:00:00-05:00",
+        "temperature": 47,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-03T04:00:00-05:00",
+        "temperature": 47,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-03T05:00:00-05:00",
+        "temperature": 47,
+        "windSpeed": "2 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      }
+    ]
+  },
+  {
+    "name": "Tuesday",
+    "startTime": "2023-01-03T06:00:00-05:00",
+    "endTime": "2023-01-03T18:00:00-05:00",
+    "temperature": 63,
+    "shortForecast": "Chance Light Rain",
+    "detailedForecast": "A chance of rain after 7am. Mostly cloudy, with a high near 63. South wind 3 to 12 mph, with gusts as high as 23 mph. Chance of precipitation is 30%.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-03T06:00:00-05:00",
+        "temperature": 47,
+        "windSpeed": "3 mph",
+        "windDirection": "S",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-03T07:00:00-05:00",
+        "temperature": 48,
+        "windSpeed": "5 mph",
+        "windDirection": "S",
+        "shortForecast": "Slight Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T08:00:00-05:00",
+        "temperature": 50,
+        "windSpeed": "6 mph",
+        "windDirection": "S",
+        "shortForecast": "Slight Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T09:00:00-05:00",
+        "temperature": 52,
+        "windSpeed": "8 mph",
+        "windDirection": "S",
+        "shortForecast": "Slight Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T10:00:00-05:00",
+        "temperature": 54,
+        "windSpeed": "9 mph",
+        "windDirection": "S",
+        "shortForecast": "Slight Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T11:00:00-05:00",
+        "temperature": 56,
+        "windSpeed": "10 mph",
+        "windDirection": "S",
+        "shortForecast": "Slight Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T12:00:00-05:00",
+        "temperature": 58,
+        "windSpeed": "12 mph",
+        "windDirection": "S",
+        "shortForecast": "Slight Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T13:00:00-05:00",
+        "temperature": 60,
+        "windSpeed": "12 mph",
+        "windDirection": "S",
+        "shortForecast": "Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T14:00:00-05:00",
+        "temperature": 62,
+        "windSpeed": "12 mph",
+        "windDirection": "S",
+        "shortForecast": "Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T15:00:00-05:00",
+        "temperature": 63,
+        "windSpeed": "12 mph",
+        "windDirection": "S",
+        "shortForecast": "Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T16:00:00-05:00",
+        "temperature": 63,
+        "windSpeed": "12 mph",
+        "windDirection": "S",
+        "shortForecast": "Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T17:00:00-05:00",
+        "temperature": 63,
+        "windSpeed": "12 mph",
+        "windDirection": "S",
+        "shortForecast": "Chance Light Rain"
+      }
+    ]
+  },
+  {
+    "name": "Tuesday Night",
+    "startTime": "2023-01-03T18:00:00-05:00",
+    "endTime": "2023-01-04T06:00:00-05:00",
+    "temperature": 55,
+    "shortForecast": "Light Rain Likely",
+    "detailedForecast": "Rain likely. Cloudy, with a low around 55. Chance of precipitation is 60%.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-03T18:00:00-05:00",
+        "temperature": 61,
+        "windSpeed": "10 mph",
+        "windDirection": "S",
+        "shortForecast": "Chance Light Rain"
+      },
+      {
+        "startTime": "2023-01-03T19:00:00-05:00",
+        "temperature": 55,
+        "windSpeed": "10 mph",
+        "windDirection": "S",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-03T20:00:00-05:00",
+        "temperature": 56,
+        "windSpeed": "10 mph",
+        "windDirection": "S",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-03T21:00:00-05:00",
+        "temperature": 57,
+        "windSpeed": "10 mph",
+        "windDirection": "SW",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-03T22:00:00-05:00",
+        "temperature": 57,
+        "windSpeed": "10 mph",
+        "windDirection": "SW",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-03T23:00:00-05:00",
+        "temperature": 57,
+        "windSpeed": "10 mph",
+        "windDirection": "SW",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-04T00:00:00-05:00",
+        "temperature": 57,
+        "windSpeed": "9 mph",
+        "windDirection": "SW",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-04T01:00:00-05:00",
+        "temperature": 57,
+        "windSpeed": "9 mph",
+        "windDirection": "SW",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-04T02:00:00-05:00",
+        "temperature": 57,
+        "windSpeed": "9 mph",
+        "windDirection": "SW",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-04T03:00:00-05:00",
+        "temperature": 58,
+        "windSpeed": "8 mph",
+        "windDirection": "SW",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-04T04:00:00-05:00",
+        "temperature": 58,
+        "windSpeed": "8 mph",
+        "windDirection": "SW",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-04T05:00:00-05:00",
+        "temperature": 58,
+        "windSpeed": "8 mph",
+        "windDirection": "SW",
+        "shortForecast": "Light Rain Likely"
+      }
+    ]
+  },
+  {
+    "name": "Wednesday",
+    "startTime": "2023-01-04T06:00:00-05:00",
+    "endTime": "2023-01-04T18:00:00-05:00",
+    "temperature": 67,
+    "shortForecast": "Light Rain Likely then Showers And Thunderstorms",
+    "detailedForecast": "Rain likely before 7am, then rain showers between 7am and 1pm, then showers and thunderstorms. Mostly cloudy, with a high near 67. Chance of precipitation is 80%.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-04T06:00:00-05:00",
+        "temperature": 59,
+        "windSpeed": "8 mph",
+        "windDirection": "S",
+        "shortForecast": "Light Rain Likely"
+      },
+      {
+        "startTime": "2023-01-04T07:00:00-05:00",
+        "temperature": 57,
+        "windSpeed": "8 mph",
+        "windDirection": "S",
+        "shortForecast": "Rain Showers"
+      },
+      {
+        "startTime": "2023-01-04T08:00:00-05:00",
+        "temperature": 58,
+        "windSpeed": "9 mph",
+        "windDirection": "S",
+        "shortForecast": "Rain Showers"
+      },
+      {
+        "startTime": "2023-01-04T09:00:00-05:00",
+        "temperature": 59,
+        "windSpeed": "9 mph",
+        "windDirection": "S",
+        "shortForecast": "Rain Showers"
+      },
+      {
+        "startTime": "2023-01-04T10:00:00-05:00",
+        "temperature": 60,
+        "windSpeed": "10 mph",
+        "windDirection": "S",
+        "shortForecast": "Rain Showers"
+      },
+      {
+        "startTime": "2023-01-04T11:00:00-05:00",
+        "temperature": 62,
+        "windSpeed": "12 mph",
+        "windDirection": "S",
+        "shortForecast": "Rain Showers"
+      },
+      {
+        "startTime": "2023-01-04T12:00:00-05:00",
+        "temperature": 63,
+        "windSpeed": "12 mph",
+        "windDirection": "SW",
+        "shortForecast": "Rain Showers"
+      },
+      {
+        "startTime": "2023-01-04T13:00:00-05:00",
+        "temperature": 65,
+        "windSpeed": "12 mph",
+        "windDirection": "SW",
+        "shortForecast": "Showers And Thunderstorms"
+      },
+      {
+        "startTime": "2023-01-04T14:00:00-05:00",
+        "temperature": 66,
+        "windSpeed": "12 mph",
+        "windDirection": "SW",
+        "shortForecast": "Showers And Thunderstorms"
+      },
+      {
+        "startTime": "2023-01-04T15:00:00-05:00",
+        "temperature": 67,
+        "windSpeed": "12 mph",
+        "windDirection": "SW",
+        "shortForecast": "Showers And Thunderstorms"
+      },
+      {
+        "startTime": "2023-01-04T16:00:00-05:00",
+        "temperature": 67,
+        "windSpeed": "10 mph",
+        "windDirection": "SW",
+        "shortForecast": "Showers And Thunderstorms"
+      },
+      {
+        "startTime": "2023-01-04T17:00:00-05:00",
+        "temperature": 66,
+        "windSpeed": "9 mph",
+        "windDirection": "SW",
+        "shortForecast": "Showers And Thunderstorms"
+      }
+    ]
+  },
+  {
+    "name": "Wednesday Night",
+    "startTime": "2023-01-04T18:00:00-05:00",
+    "endTime": "2023-01-05T06:00:00-05:00",
+    "temperature": 45,
+    "shortForecast": "Showers And Thunderstorms",
+    "detailedForecast": "Showers and thunderstorms before 1am. Mostly cloudy, with a low around 45. Chance of precipitation is 80%.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-04T18:00:00-05:00",
+        "temperature": 64,
+        "windSpeed": "7 mph",
+        "windDirection": "SW",
+        "shortForecast": "Showers And Thunderstorms"
+      },
+      {
+        "startTime": "2023-01-04T19:00:00-05:00",
+        "temperature": 63,
+        "windSpeed": "6 mph",
+        "windDirection": "SW",
+        "shortForecast": "Slight Chance Rain Showers"
+      },
+      {
+        "startTime": "2023-01-04T20:00:00-05:00",
+        "temperature": 61,
+        "windSpeed": "6 mph",
+        "windDirection": "W",
+        "shortForecast": "Slight Chance Rain Showers"
+      },
+      {
+        "startTime": "2023-01-04T21:00:00-05:00",
+        "temperature": 59,
+        "windSpeed": "6 mph",
+        "windDirection": "W",
+        "shortForecast": "Slight Chance Rain Showers"
+      },
+      {
+        "startTime": "2023-01-04T22:00:00-05:00",
+        "temperature": 57,
+        "windSpeed": "6 mph",
+        "windDirection": "W",
+        "shortForecast": "Slight Chance Rain Showers"
+      },
+      {
+        "startTime": "2023-01-04T23:00:00-05:00",
+        "temperature": 56,
+        "windSpeed": "6 mph",
+        "windDirection": "W",
+        "shortForecast": "Slight Chance Rain Showers"
+      },
+      {
+        "startTime": "2023-01-05T00:00:00-05:00",
+        "temperature": 55,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "shortForecast": "Slight Chance Rain Showers"
+      },
+      {
+        "startTime": "2023-01-05T01:00:00-05:00",
+        "temperature": 53,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-05T02:00:00-05:00",
+        "temperature": 52,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-05T03:00:00-05:00",
+        "temperature": 51,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-05T04:00:00-05:00",
+        "temperature": 49,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-05T05:00:00-05:00",
+        "temperature": 47,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      }
+    ]
+  },
+  {
+    "name": "Thursday",
+    "startTime": "2023-01-05T06:00:00-05:00",
+    "endTime": "2023-01-05T18:00:00-05:00",
+    "temperature": 52,
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 52.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-05T06:00:00-05:00",
+        "temperature": 46,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T07:00:00-05:00",
+        "temperature": 45,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T08:00:00-05:00",
+        "temperature": 45,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T09:00:00-05:00",
+        "temperature": 47,
+        "windSpeed": "8 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T10:00:00-05:00",
+        "temperature": 48,
+        "windSpeed": "9 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T11:00:00-05:00",
+        "temperature": 49,
+        "windSpeed": "9 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T12:00:00-05:00",
+        "temperature": 50,
+        "windSpeed": "9 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T13:00:00-05:00",
+        "temperature": 51,
+        "windSpeed": "9 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T14:00:00-05:00",
+        "temperature": 52,
+        "windSpeed": "8 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T15:00:00-05:00",
+        "temperature": 52,
+        "windSpeed": "8 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T16:00:00-05:00",
+        "temperature": 51,
+        "windSpeed": "7 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-05T17:00:00-05:00",
+        "temperature": 50,
+        "windSpeed": "7 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      }
+    ]
+  },
+  {
+    "name": "Thursday Night",
+    "startTime": "2023-01-05T18:00:00-05:00",
+    "endTime": "2023-01-06T06:00:00-05:00",
+    "temperature": 34,
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 34.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-05T18:00:00-05:00",
+        "temperature": 47,
+        "windSpeed": "6 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-05T19:00:00-05:00",
+        "temperature": 45,
+        "windSpeed": "6 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-05T20:00:00-05:00",
+        "temperature": 43,
+        "windSpeed": "6 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-05T21:00:00-05:00",
+        "temperature": 42,
+        "windSpeed": "6 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-05T22:00:00-05:00",
+        "temperature": 40,
+        "windSpeed": "6 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-05T23:00:00-05:00",
+        "temperature": 39,
+        "windSpeed": "6 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T00:00:00-05:00",
+        "temperature": 38,
+        "windSpeed": "5 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T01:00:00-05:00",
+        "temperature": 38,
+        "windSpeed": "5 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T02:00:00-05:00",
+        "temperature": 37,
+        "windSpeed": "5 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T03:00:00-05:00",
+        "temperature": 36,
+        "windSpeed": "5 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T04:00:00-05:00",
+        "temperature": 35,
+        "windSpeed": "5 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T05:00:00-05:00",
+        "temperature": 35,
+        "windSpeed": "5 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Cloudy"
+      }
+    ]
+  },
+  {
+    "name": "Friday",
+    "startTime": "2023-01-06T06:00:00-05:00",
+    "endTime": "2023-01-06T18:00:00-05:00",
+    "temperature": 44,
+    "shortForecast": "Partly Sunny",
+    "detailedForecast": "Partly sunny, with a high near 44.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-06T06:00:00-05:00",
+        "temperature": 34,
+        "windSpeed": "6 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T07:00:00-05:00",
+        "temperature": 34,
+        "windSpeed": "6 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T08:00:00-05:00",
+        "temperature": 35,
+        "windSpeed": "6 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T09:00:00-05:00",
+        "temperature": 37,
+        "windSpeed": "7 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T10:00:00-05:00",
+        "temperature": 38,
+        "windSpeed": "7 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T11:00:00-05:00",
+        "temperature": 40,
+        "windSpeed": "7 mph",
+        "windDirection": "N",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T12:00:00-05:00",
+        "temperature": 41,
+        "windSpeed": "7 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T13:00:00-05:00",
+        "temperature": 42,
+        "windSpeed": "7 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T14:00:00-05:00",
+        "temperature": 43,
+        "windSpeed": "7 mph",
+        "windDirection": "N",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T15:00:00-05:00",
+        "temperature": 44,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T16:00:00-05:00",
+        "temperature": 44,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Sunny"
+      },
+      {
+        "startTime": "2023-01-06T17:00:00-05:00",
+        "temperature": 43,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Sunny"
+      }
+    ]
+  },
+  {
+    "name": "Friday Night",
+    "startTime": "2023-01-06T18:00:00-05:00",
+    "endTime": "2023-01-07T06:00:00-05:00",
+    "temperature": 29,
+    "shortForecast": "Partly Cloudy",
+    "detailedForecast": "Partly cloudy, with a low around 29.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-06T18:00:00-05:00",
+        "temperature": 41,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T19:00:00-05:00",
+        "temperature": 39,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T20:00:00-05:00",
+        "temperature": 38,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T21:00:00-05:00",
+        "temperature": 36,
+        "windSpeed": "3 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T22:00:00-05:00",
+        "temperature": 35,
+        "windSpeed": "3 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-06T23:00:00-05:00",
+        "temperature": 35,
+        "windSpeed": "3 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-07T00:00:00-05:00",
+        "temperature": 34,
+        "windSpeed": "3 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-07T01:00:00-05:00",
+        "temperature": 33,
+        "windSpeed": "3 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-07T02:00:00-05:00",
+        "temperature": 32,
+        "windSpeed": "3 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-07T03:00:00-05:00",
+        "temperature": 32,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-07T04:00:00-05:00",
+        "temperature": 31,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-07T05:00:00-05:00",
+        "temperature": 30,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      }
+    ]
+  },
+  {
+    "name": "Saturday",
+    "startTime": "2023-01-07T06:00:00-05:00",
+    "endTime": "2023-01-07T18:00:00-05:00",
+    "temperature": 46,
+    "shortForecast": "Mostly Sunny",
+    "detailedForecast": "Mostly sunny, with a high near 46.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-07T06:00:00-05:00",
+        "temperature": 29,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny"
+      },
+      {
+        "startTime": "2023-01-07T07:00:00-05:00",
+        "temperature": 29,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny"
+      },
+      {
+        "startTime": "2023-01-07T08:00:00-05:00",
+        "temperature": 31,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny"
+      },
+      {
+        "startTime": "2023-01-07T09:00:00-05:00",
+        "temperature": 35,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny"
+      },
+      {
+        "startTime": "2023-01-07T10:00:00-05:00",
+        "temperature": 38,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny"
+      },
+      {
+        "startTime": "2023-01-07T11:00:00-05:00",
+        "temperature": 41,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Sunny"
+      },
+      {
+        "startTime": "2023-01-07T12:00:00-05:00",
+        "temperature": 43,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-07T13:00:00-05:00",
+        "temperature": 45,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-07T14:00:00-05:00",
+        "temperature": 46,
+        "windSpeed": "7 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-07T15:00:00-05:00",
+        "temperature": 46,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-07T16:00:00-05:00",
+        "temperature": 45,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      },
+      {
+        "startTime": "2023-01-07T17:00:00-05:00",
+        "temperature": 43,
+        "windSpeed": "6 mph",
+        "windDirection": "NW",
+        "shortForecast": "Mostly Sunny"
+      }
+    ]
+  },
+  {
+    "name": "Saturday Night",
+    "startTime": "2023-01-07T18:00:00-05:00",
+    "endTime": "2023-01-08T06:00:00-05:00",
+    "temperature": 31,
+    "shortForecast": "Mostly Cloudy",
+    "detailedForecast": "Mostly cloudy, with a low around 31.",
+    "hourlyData": [
+      {
+        "startTime": "2023-01-07T18:00:00-05:00",
+        "temperature": 40,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-07T19:00:00-05:00",
+        "temperature": 38,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-07T20:00:00-05:00",
+        "temperature": 37,
+        "windSpeed": "5 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-07T21:00:00-05:00",
+        "temperature": 36,
+        "windSpeed": "3 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      },
+      {
+        "startTime": "2023-01-07T22:00:00-05:00",
+        "temperature": 36,
+        "windSpeed": "3 mph",
+        "windDirection": "NW",
+        "shortForecast": "Partly Cloudy"
+      }
+    ]
+  }
+]
