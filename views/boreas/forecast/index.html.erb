@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="/styles.css"/>
   </head>
   <body>
-    <h2>Forecast</h2>
+    <h1>Forecast</h1>
     <% if @error %>
     <p>ruh roh: <%= @error %></p>
     <% end %>
@@ -31,6 +31,12 @@
       </div>
     <% end %>
     <hr>
-    <p class="small_text"><a href="https://github.com/packrat386/boreas">Boreas</a> Version: v<%= Boreas::VERSION %></p>
+    <p class="small_text">
+      <a href="https://github.com/packrat386/boreas">Boreas</a> Version: v<%= Boreas::VERSION %>
+      -
+      <a href="/index.html">Home</a>
+      -
+      <a href="/about.html">About</a>
+    </p>
   </body>
 </html>
