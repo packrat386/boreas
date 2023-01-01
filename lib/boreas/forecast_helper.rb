@@ -2,7 +2,7 @@
 module Boreas
   module ForecastHelper
     def daily_forecast_title(dd)
-      date = Time.zone.parse(dd['startTime']).strftime("%-m/%-d")
+      date = Time.parse(dd['startTime']).strftime("%-m/%-d")
 
       "#{dd['name']} (#{date}): #{dd['temperature']}°F - #{dd['shortForecast']} "
     end
