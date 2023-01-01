@@ -70,7 +70,7 @@ module Boreas
       uri = URI(url)
 
       req = Net::HTTP::Get.new(uri)
-      req["User-Agent"] = "Boreas / 0.1 (alpha)"
+      req["User-Agent"] = "Boreas / #{Boreas::VERSION} (beta)"
 
       res = Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
         http.request(req)
