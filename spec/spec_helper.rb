@@ -27,6 +27,8 @@ RSpec.configure do |config|
     config.default_formatter = "doc"
   end
 
+  config.before(:each) { Rails.cache.clear }
+
   # these become defaults in rspec 4
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
