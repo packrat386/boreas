@@ -1,0 +1,42 @@
+{
+  "result": {
+    "input": {
+      "address": {
+        "address": "1107 Douglas Ave, Beaver, OK 73932"
+      },
+      "benchmark": {
+        "isDefault": false,
+        "benchmarkDescription": "Public Address Ranges - Census 2020 Benchmark",
+        "id": "2020",
+        "benchmarkName": "Public_AR_Census2020"
+      }
+    },
+    "addressMatches": [
+      {
+        "tigerLine": {
+          "side": "L",
+          "tigerLineId": "606085621"
+        },
+        "coordinates": {
+          "x": -100.51959131215641,
+          "y": 36.80604226517923
+        },
+        "addressComponents": {
+          "zip": "73932",
+          "streetName": "DOUGLAS",
+          "preType": "",
+          "city": "BEAVER",
+          "preDirection": "",
+          "suffixDirection": "",
+          "fromAddress": "1199",
+          "state": "OK",
+          "suffixType": "AVE",
+          "toAddress": "1105",
+          "suffixQualifier": "",
+          "preQualifier": ""
+        },
+        "matchedAddress": "1107 DOUGLAS AVE, BEAVER, OK, 73932"
+      }
+    ]
+  }
+}
