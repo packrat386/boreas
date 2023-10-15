@@ -30,5 +30,17 @@ module Boreas
         content_tag(:td, "#{row["windSpeed"]} #{row["windDirection"]}", class: "forecast_datapoint") +
         content_tag(:td, row["shortForecast"], class: "forecast_datapoint")
     end
+
+    def alert_body(row)
+      content_tag(:div, class: "alert_details") do
+        concat(content_tag(:p) do
+          row["description"].split("\n\n").collect do |line|
+            content_tag(:span, line) + tag(:br)
+          end.join.html_safe
+        end)
+
+        concat(content_tag(:p, row["instruction"]))
+      end
+    end
   end
 end

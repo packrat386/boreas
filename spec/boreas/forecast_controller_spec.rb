@@ -2,7 +2,16 @@ require "spec_helper"
 
 RSpec.describe Boreas::ForecastController, type: :feature do
   describe "getting a forecast" do
-    let(:forecast_service) { instance_double(Boreas::ForecastService, forecast_data: forecast_data) }
+    let(:forecast_service) do
+      instance_double(
+        Boreas::ForecastService,
+        alert_data: alert_data,
+        forecast_data: forecast_data
+      )
+    end
+
+    let(:alert_data) { nil }
+
     let(:forecast_data) do
       [
         {
@@ -110,6 +119,31 @@ RSpec.describe Boreas::ForecastController, type: :feature do
 
       expect(page).not_to have_selector "#forecast"
       expect(page).to have_content "ruh roh: something went wrong"
+    end
+
+    context "with alerts" do
+      let(:alert_data) do
+        [
+          {
+            "headline" => "Freeze Warning issued October 15 at 9:52AM CDT until October 16 at 9:00AM CDT by NWS Amarillo TX",
+            "description" => "* WHAT...Sub-freezing temperatures as low as 32 expected.\n\n* WHERE...In Oklahoma, Beaver County. In Texas, Ochiltree County.\n\n* WHEN...From 4 AM to 9 AM CDT Monday.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
+            "instruction" => "Take steps now to protect tender plants from the cold."
+          }
+        ]
+      end
+
+      it "renders alerts" do
+        visit forecast_path(address: search_address)
+
+        expect(Boreas::ForecastService).to have_received(:new).with search_address
+
+        expect(page).to have_content "Forecast"
+
+        expect(page).to have_field "Address", type: "text", with: search_address
+
+        expect(page).to have_selector "#forecast"
+        expect(page).to have_content "New Year's Day (1/1): 65°F - Mostly Sunny"
+      end
     end
   end
 end

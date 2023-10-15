@@ -1,0 +1,88 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1bc8b24403cfc41d2fd318e24fe8998c6643b505.001.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1bc8b24403cfc41d2fd318e24fe8998c6643b505.001.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.1bc8b24403cfc41d2fd318e24fe8998c6643b505.001.2",
+        "areaDesc": "Beaver; Ochiltree",
+        "geocode": {
+          "SAME": [
+            "040007",
+            "048357"
+          ],
+          "UGC": [
+            "OKZ003",
+            "TXZ004"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/OKZ003",
+          "https://api.weather.gov/zones/forecast/TXZ004"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e6e73d38b289f3468913888856b341c4ad1a0d9d.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.e6e73d38b289f3468913888856b341c4ad1a0d9d.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2023-10-15T02:58:00-05:00"
+          }
+        ],
+        "sent": "2023-10-15T09:52:00-05:00",
+        "effective": "2023-10-15T09:52:00-05:00",
+        "onset": "2023-10-16T04:00:00-05:00",
+        "expires": "2023-10-15T18:00:00-05:00",
+        "ends": "2023-10-16T09:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Freeze Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Amarillo TX",
+        "headline": "Freeze Warning issued October 15 at 9:52AM CDT until October 16 at 9:00AM CDT by NWS Amarillo TX",
+        "description": "* WHAT...Sub-freezing temperatures as low as 32 expected.\n\n* WHERE...In Oklahoma, Beaver County. In Texas, Ochiltree County.\n\n* WHEN...From 4 AM to 9 AM CDT Monday.\n\n* IMPACTS...Frost and freeze conditions could kill crops, other\nsensitive vegetation and possibly damage unprotected outdoor\nplumbing.",
+        "instruction": "Take steps now to protect tender plants from the cold.",
+        "response": "Execute",
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWAMA"
+          ],
+          "WMOidentifier": [
+            "WWUS74 KAMA 151452"
+          ],
+          "NWSheadline": [
+            "FREEZE WARNING REMAINS IN EFFECT FROM 4 AM TO 9 AM CDT MONDAY... ...FREEZE WARNING WILL EXPIRE AT 10 AM CDT THIS MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KAMA.FZ.W.0006.231016T0900Z-231016T1400Z/"
+          ],
+          "eventEndingTime": [
+            "2023-10-16T14:00:00+00:00"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for 36.806 N, 100.5196 W",
+  "updated": "2023-10-15T15:00:00+00:00"
+}

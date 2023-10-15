@@ -19,12 +19,41 @@ h2 {
     font-size: 1.7vh
 }
 
+.alert_message {
+    display: flex;
+    align-items: center;
+    height: 3em;
+    background: #FFEE88;
+    padding: .5em;
+}
+
+@media (max-width: 1000px) {
+    .alert_message {
+        height: 5em;
+    }
+}
+
+.alert_details {
+    display: none;
+    padding: .5em;
+}
+
+input[type=checkbox]:checked ~ .alert_details {
+    display: block
+}
+
 .forecast_day {
     display: flex;
     align-items: center;
     height: 3em;
     background: #DDDDDD;
     padding: .5em;
+}
+
+@media (max-width: 1000px) {
+    .forecast_day {
+        height: 5em;
+    }
 }
 
 .forecast_details > table {

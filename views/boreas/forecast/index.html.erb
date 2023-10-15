@@ -13,17 +13,31 @@
       <input type="text" id="address" name="address" DISABLED_size="50" style="width:70%" value="<%= @address %>"></input>
       <input type="submit" id="submit" value="Submit">
     </form>
+    <% if @alert_data %>
+      <div id="alerts">
+        <% @alert_data.each_with_index do |a, i| %>
+          <div>
+            <label for="toggle_alert_<%= i %>" class="alert_message">
+              <span style="vertical-align:middle"><%= a["headline"] %></span>
+            </label>
+            <input type="checkbox" id="toggle_alert_<%= i %>">
+            <%= alert_body(a) %>
+          </div>
+          </br>
+        <% end %>
+      </div>
+    <% end %>
     <% if @forecast_data %>
-      <div id='forecast'>
+      <div id="forecast">
         <% @forecast_data.each_with_index do |dd, i| %>
         <div>
-          <label for="toggle_forecast_<%= i%>" class='forecast_day'>
-            <span style='vertical-align:middle'><%= daily_forecast_title(dd) %></span>
+          <label for="toggle_forecast_<%= i %>" class="forecast_day">
+            <span style="vertical-align:middle"><%= daily_forecast_title(dd) %></span>
           </label>
           <input type="checkbox" id="toggle_forecast_<%= i%>">
-          <div class='forecast_details'>
-            <p><%= dd['detailedForecast'] %></p>
-            <%= hourly_forecast_table(dd['hourlyData']) %>
+          <div class="forecast_details">
+            <p><%= dd["detailedForecast"] %></p>
+            <%= hourly_forecast_table(dd["hourlyData"]) %>
           </div>
         </div>
         </br>

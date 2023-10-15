@@ -26,6 +26,21 @@ module Boreas
       daily_data
     end
 
+    def alert_data
+      get_json_cached(alert_url, 5.minutes)
+        .dig("features").map { _1.dig("properties").slice("headline", "description", "instruction") }
+    end
+
+    def alert_url
+      URI::HTTPS.build(
+        host: "api.weather.gov",
+        path: "/alerts/active",
+        query: {
+          point: "#{latitude},#{longitude}"
+        }.to_query
+      ).to_s
+    end
+
     def daily_forecast_url
       nws_gridpoint.dig("properties", "forecast")
     end
