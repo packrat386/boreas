@@ -1,7 +1,7 @@
 require "action_controller/railtie"
 
 module Boreas
-  VERSION = "0.2.0"
+  VERSION = "0.2.1"
 
   class Application < Rails::Application
     config.logger = Logger.new(Rails.env.test? ? nil : $stdout)
