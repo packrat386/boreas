@@ -35,12 +35,30 @@ module Boreas
       content_tag(:div, class: "alert_details") do
         concat(content_tag(:p) do
           row["description"].split("\n\n").collect do |line|
-            content_tag(:span, line) + tag(:br)
+            content_tag(:span) do
+              line.split(" ").each do |l|
+                concat(wrap_link_in_anchor(l))
+                concat(" ")
+              end
+            end + tag(:br)
           end.join.html_safe
         end)
 
         concat(content_tag(:p, row["instruction"]))
       end
+    end
+
+    def wrap_link_in_anchor(word)
+      if is_a_link?(word)
+        content_tag(:a, word, href: word)
+      else
+        word
+      end
+    end
+
+    def is_a_link?(word)
+      # dumb but probably true
+      word.starts_with?("https://")
     end
   end
 end
