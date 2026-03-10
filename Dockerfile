@@ -1,4 +1,4 @@
-FROM ruby:3.2
+FROM ruby:4.0
 
 RUN mkdir -p /var/www/boreas
 WORKDIR /var/www/boreas

@@ -13,7 +13,7 @@ module Boreas
     def forecast_data
       daily_data = get_json_cached(daily_forecast_url, 5.minutes)
         .dig("properties", "periods")
-        .map { _1.slice("name", "startTime", "endTime", "temperature", "shortForecast", "detailedForecast").merge("hourlyData" => []) }
+        .map { it.slice("name", "startTime", "endTime", "temperature", "shortForecast", "detailedForecast").merge("hourlyData" => []) }
 
       get_json_cached(hourly_forecast_url, 5.minutes).dig("properties", "periods").each do |hd|
         daily_data.each do |dd|
@@ -28,7 +28,7 @@ module Boreas
 
     def alert_data
       get_json_cached(alert_url, 5.minutes)
-        .dig("features").map { _1.dig("properties").slice("headline", "description", "instruction") }
+        .dig("features").map { it.dig("properties").slice("headline", "description", "instruction") }
     end
 
     def alert_url
