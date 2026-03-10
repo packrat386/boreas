@@ -1,5 +1,6 @@
 source "https://rubygems.org"
-ruby "~> 3.2"
+
+ruby "~> 4.0"
 
 gem "actionpack"
 gem "railties"
