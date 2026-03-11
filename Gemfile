@@ -8,6 +8,7 @@ gem "puma"
 
 group :development, :test do
   gem "standard"
+  gem "rubyzip", "~> 3.2"
 end
 
 group :test do
