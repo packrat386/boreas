@@ -39,11 +39,13 @@ If you would like to contribute to Boreas, GitHub Issues and Pull Requests on th
 
 This software is licensed under the MIT license. Detailed terms can be found in LICENSE.txt in this repo.
 
+The data contained in `config/zipcodes.json` is sourced from [geonames][] where it is licensed under [CC BY 4.0][].
+
 ## Further Reading
 
 * [NOAA National Weather Service API Docs](https://www.weather.gov/documentation/services-web-api)
 * [US Census Bureau Geocoding API Docs](https://geocoding.geo.census.gov/geocoder/Geocoding_Services_API.html)
+* [geonames data download](https://download.geonames.org/export/zip/)
 
-
-
-
+[CC BY 4.0]: https://creativecommons.org/licenses/by/4.0/
+[geonames]: https://www.geonames.org/
