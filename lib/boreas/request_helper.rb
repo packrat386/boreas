@@ -17,7 +17,13 @@ module Boreas
     end
 
     def get_json(url)
-      JSON.parse(get_url(url).body)
+      t0 = Process.clock_gettime(Process::CLOCK_MONOTONIC, :millisecond)
+      data = JSON.parse(get_url(url).body)
+      t1 = Process.clock_gettime(Process::CLOCK_MONOTONIC, :millisecond)
+
+      Rails.logger.debug("call to #{url} finished in #{t1 - t0} ms")
+
+      data
     end
 
     def get_url(url)
